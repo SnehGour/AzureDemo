@@ -5,6 +5,8 @@ VisualStudioVersion = 17.9.34622.214
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureServiceBusDemo", "AzureServiceBusDemo.csproj", "{4E4180B8-B527-42FE-93A4-F81E35A90D3D}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AzureServiceBusQueue", "AzureServiceBusQueue", "{B43CEA0B-D92D-4F3D-BED1-1DBBA047077D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,6 +20,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4E4180B8-B527-42FE-93A4-F81E35A90D3D} = {B43CEA0B-D92D-4F3D-BED1-1DBBA047077D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9983B2EE-B752-4A64-B9D0-69F6473DACED}
